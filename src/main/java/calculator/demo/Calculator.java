@@ -1,10 +1,12 @@
+package calculator.demo;
+
 public class Calculator {
 
     public int sum(int a, int b) {
         return a+b;
     }
 
-    public int multimply(int a, int b) {
+    public int multiply(int a, int b) {
         return a*b;
     }
 }
