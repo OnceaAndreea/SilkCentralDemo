@@ -13,8 +13,13 @@ public class CalculatorTest {
     }
 
     @Test
-    public void testMultimply() {
+    public void testMultiply() {
         Assert.assertEquals(6, calculator.multiply(2, 3));
+    }
+
+    @Test
+    public void  testSub() {
+        Assert.assertEquals(10, 36-26);
     }
 
 }
