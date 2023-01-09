@@ -13,4 +13,12 @@ public class Calculator {
     public int sub(int a, int b) {
         return a-b;
     }
+
+    public String getBloodColour() {
+        return "red";
+    }
+
+    public String getSunColour() {
+        return "yellow";
+    }
 }
