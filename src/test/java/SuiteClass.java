@@ -1,3 +1,5 @@
+import org.junit.Assert;
+import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 
@@ -9,4 +11,9 @@ import org.junit.runners.Suite;
 })
 public class SuiteClass {
 
+    @Test
+    public void testDouble() {
+
+        Assert.assertEquals(10, 5*5);
+    }
 }
