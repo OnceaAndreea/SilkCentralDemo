@@ -13,7 +13,7 @@ public class ColourTest {
 
     @Test
     public void testSunColour() {
-        Assert.assertEquals("yellow", calculator.getBloodColour());
+        Assert.assertEquals("yellow", calculator.getSunColour());
     }
 
 }
