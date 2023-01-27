@@ -6,7 +6,7 @@ public class NameTest {
 
     @Test
     public void testComposedName() {
-        assertEquals("Ana-Maria", "Ana" + "-" + "Maria");
+        assertEquals("Ana - Maria", "Ana" + " - " + "Maria");
     }
 
 
