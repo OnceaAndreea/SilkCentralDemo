@@ -1,6 +1,7 @@
 import calculator.demo.Calculator;
-import org.junit.Assert;
 import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
 
 public class CalculatorTest {
 
@@ -9,17 +10,17 @@ public class CalculatorTest {
     @Test
     public void testAdd() {
 
-        Assert.assertEquals(5, calculator.sum(2, 3));
+        assertEquals(5, calculator.sum(2, 6));
     }
 
     @Test
     public void testMultiply() {
-        Assert.assertEquals(6, calculator.multiply(2, 3));
+        assertEquals(6, calculator.multiply(2, 3));
     }
 
     @Test
     public void  testSub() {
-        Assert.assertEquals(10, 36-26);
+        assertEquals(10, 36-26);
     }
 
 }

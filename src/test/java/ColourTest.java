@@ -1,6 +1,7 @@
 import calculator.demo.Calculator;
 import org.junit.Test;
-import org.junit.Assert;
+
+import static org.junit.Assert.assertEquals;
 
 public class ColourTest {
 
@@ -8,12 +9,12 @@ public class ColourTest {
 
     @Test
     public void testBloodColour() {
-        Assert.assertEquals("red", calculator.getBloodColour());
+        assertEquals("red", calculator.getBloodColour());
     }
 
     @Test
     public void testSunColour() {
-        Assert.assertEquals("yellow", calculator.getSunColour());
+        assertEquals("yellow", calculator.getSunColour());
     }
 
 }
