@@ -5,7 +5,7 @@ import static org.junit.Assert.assertEquals;
 public class NameTest {
 
     @Test
-    public void testComposedName() {
+    public void testComposedGirlName() {
         assertEquals("Ana - Maria", "Ana" + " - " + "Maria");
     }
 
