@@ -9,5 +9,10 @@ public class NameTest {
         assertEquals("Ana - Maria", "Ana" + " - " + "Maria");
     }
 
+    @Test
+    public void testComposedBoyName() {
+        assertEquals("Andrei - Daniel", "Andrei" + " - " + "Daniel");
+    }
+
 
 }
