@@ -21,5 +21,11 @@ public class NameTest {
         assertEquals("ANDREI", "Andrei".toUpperCase(Locale.ROOT));
     }
 
+    @Test
+    public void testLowerCase() {
+        assertEquals("andrei", "Andrei".toUpperCase(Locale.ROOT));
+    }
+
+
 
 }
