@@ -1,3 +1,5 @@
+package testPackage;
+
 import calculator.demo.Calculator;
 import org.junit.Test;
 

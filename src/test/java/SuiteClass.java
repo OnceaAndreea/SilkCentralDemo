@@ -1,6 +1,7 @@
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
+import testPackage.ColourTest;
 
 import static org.junit.Assert.assertEquals;
 
@@ -11,7 +12,7 @@ import static org.junit.Assert.assertEquals;
         ColourTest.class
 })
 //@Suite
-//@SelectClasses({CalculatorTest.class, ColourTest.class})
+//@SelectClasses({CalculatorTest.class, testPackage.ColourTest.class})
 public class SuiteClass {
 
     @Test
