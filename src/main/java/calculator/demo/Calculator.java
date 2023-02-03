@@ -18,6 +18,10 @@ public class Calculator {
         return "red";
     }
 
+    public String getSkyColour() {
+        return "blue";
+    }
+
     public String getSunColour() {
         return "yellow";
     }
