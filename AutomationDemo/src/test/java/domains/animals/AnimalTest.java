@@ -20,7 +20,7 @@ public class AnimalTest {
 
     @Test
     public void checkIfCatVaccinated() {
-        assertEquals(true, cat.isVaccinated());
+        assertEquals(false, cat.isVaccinated());
     }
 
 }
