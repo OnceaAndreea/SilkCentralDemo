@@ -5,7 +5,7 @@ import package1.MyEncryptor;
 
 import static org.junit.Assert.assertEquals;
 
-public class TeacherTest {
+public class TeacherATest {
 
     MyEncryptor myEncryptor = new MyEncryptor(27);
     MyEncryptor myEncryptor1 = new MyEncryptor(1);
