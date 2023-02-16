@@ -23,4 +23,14 @@ public class AnimalTest {
         assertEquals(false, cat.isVaccinated());
     }
 
+    @Test
+    public void checkCatBreed() {
+        assertEquals("malaesian", cat.getBreed());
+    }
+
+    @Test
+    public void checkCatAgeAfterOneYear() {
+        assertEquals(4, cat.getAge() + 1);
+    }
+
 }
