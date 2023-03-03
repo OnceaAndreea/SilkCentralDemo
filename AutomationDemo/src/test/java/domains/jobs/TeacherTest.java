@@ -1,7 +1,7 @@
 package domains.jobs;
+import org.junit.jupiter.api.Test;
 
-import org.junit.Assert;
-import org.junit.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class TeacherTest {
 
@@ -9,6 +9,16 @@ public class TeacherTest {
 
     @Test
     public void checkAge() {
-        Assert.assertEquals(35, teacher.getAge());
+        assertEquals(35, teacher.getAge());
     }
+
+    @Test
+    public void checkTeacherName() { assertEquals("Annae", teacher.getName());
+    }
+
+    @Test
+    public void checkCurrentYear() {
+        assertEquals(2023, 2023);
+    }
+
 }

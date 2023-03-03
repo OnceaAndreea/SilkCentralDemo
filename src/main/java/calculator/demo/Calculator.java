@@ -3,7 +3,7 @@ package calculator.demo;
 public class Calculator {
 
     public int sum(int a, int b) {
-        return a+b;
+        return b+a;
     }
 
     public int multiply(int a, int b) {
