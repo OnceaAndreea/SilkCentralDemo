@@ -33,4 +33,8 @@ public class Calculator {
     public String getCarrotColour() {
         return "orange";
     }
+
+    public String getCucumberColour() {
+        return "green";
+    }
 }
