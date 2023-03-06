@@ -30,11 +30,4 @@ public class Calculator {
         return "red";
     }
 
-    public String getCarrotColour() {
-        return "orange";
-    }
-
-    public String getCucumberColour() {
-        return "green";
-    }
 }
