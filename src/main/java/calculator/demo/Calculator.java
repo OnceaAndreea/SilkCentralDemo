@@ -29,4 +29,8 @@ public class Calculator {
     public String getTomatoColour() {
         return "red";
     }
+
+    public String getCarrotColour() {
+        return "orange";
+    }
 }
