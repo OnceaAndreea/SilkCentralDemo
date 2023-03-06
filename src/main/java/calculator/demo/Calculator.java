@@ -21,4 +21,8 @@ public class Calculator {
     public String getSunColour() {
         return "yellow";
     }
+
+    public String getMoonColour() {
+        return "cheesy";
+    }
 }
