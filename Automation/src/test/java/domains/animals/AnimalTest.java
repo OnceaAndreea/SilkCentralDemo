@@ -13,4 +13,9 @@ public class AnimalTest {
         public void checkCat() {
             assertEquals(myEncryptor.encrypt("CAT"), "ecv");
     }
+
+    @Test
+    public void testVariables() {
+        System.out.println(System.getProperty("#sctm_keywords"));
+    }
 }
