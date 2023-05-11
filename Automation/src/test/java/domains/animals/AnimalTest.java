@@ -17,6 +17,7 @@ public class AnimalTest {
     @Test
     public void testVariables() {
         System.out.println(System.getProperty("#sctm_keywords"));
+        System.out.println(System.getProperty("p1"));
         System.out.println("aaaaaaaaaaa");
     }
 }
