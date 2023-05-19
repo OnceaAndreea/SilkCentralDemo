@@ -12,6 +12,7 @@ public class AnimalTest {
         @Test
         public void checkCat() {
             assertEquals(myEncryptor.encrypt("CAT"), "ecv");
+            assertEquals(System.getProperty("a"), "y");
     }
 
     @Test
