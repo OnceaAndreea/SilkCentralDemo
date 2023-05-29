@@ -19,6 +19,7 @@ public class AnimalTest {
     public void testVariables() {
         System.out.println(System.getProperty("#sctm_keywords"));
         System.out.println(System.getProperty("p1"));
+        System.out.println(System.getProperty("param1"));
         System.out.println("aaaaaaaaaaa");
     }
 }
