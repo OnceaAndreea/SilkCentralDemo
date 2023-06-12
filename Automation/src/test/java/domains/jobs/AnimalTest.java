@@ -11,5 +11,6 @@ public class AnimalTest {
     @Test
     public void checkDoggo() {
         assertEquals(myEncryptor.encrypt("dOg"), myEncryptor1.encrypt("dOg"));
+        assertEquals(System.getProperty("#sctm_test_name"), "j1");
     }
 }
