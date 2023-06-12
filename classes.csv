@@ -1,6 +1,6 @@
-﻿Classes,
-domains.animals.AnimalTest.testVariables,
-domains.animals.AnimalTest.checkCat,
-domains.jobs.AnimalTest.checkDoggo,
-domains.jobs.TeacherATest.checkDoggo,
-domains.packageEncryption.EncryptorTest.checkZebra,
+﻿p1,p2,class,method
+domains,animals,AnimalTest,testVariables
+domains,animals,AnimalTest,checkCat
+domains,jobs,AnimalTest,checkDoggo
+domains,jobs,TeacherATest,checkDoggo
+domains,packageEncryption,EncryptorTest.checkZebra
