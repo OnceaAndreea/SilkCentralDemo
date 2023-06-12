@@ -1,6 +1,6 @@
-﻿Classes,Id
-domains.animals.AnimalTest.testVariables,2
-domains.animals.AnimalTest.checkCat,3
-domains.jobs.AnimalTest.checkDoggo,4
-domains.jobs.TeacherATest.checkDoggo,5
-domains.packageEncryption.EncryptorTest.checkZebra,6
+﻿Classes
+domains.animals.AnimalTest.testVariables
+domains.animals.AnimalTest.checkCat
+domains.jobs.AnimalTest.checkDoggo
+domains.jobs.TeacherATest.checkDoggo
+domains.packageEncryption.EncryptorTest.checkZebra
