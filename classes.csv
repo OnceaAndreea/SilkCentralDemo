@@ -3,4 +3,4 @@ domains,animals,AnimalTest,testVariables
 domains,animals,AnimalTest,checkCat
 domains,jobs,AnimalTest,checkDoggo
 domains,jobs,TeacherATest,checkDoggo
-domains,packageEncryption,EncryptorTest.checkZebra
+domains,packageEncryption,EncryptorTest,checkZebra
