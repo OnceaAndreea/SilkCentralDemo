@@ -213,13 +213,13 @@ async function getModifiedCSVBytes(iterationsWithReplacedParams: { [p: string]: 
 
     let csvString = "";
     for (let param in iterationsWithReplacedParams[0]) {
-        csvString = `${csvString}${param},`;
+        csvString = `${csvString}"${param}",`;
     }
     csvString = `${csvString.substring(0, csvString.length - 1)}`;
     for (let iteration of iterationsWithReplacedParams) {
         csvString = `${csvString}\n`;
         for (let param in iteration) {
-            csvString = `${csvString}${iteration[param]},`;
+            csvString = `${csvString}"${iteration[param]}",`;
         }
         csvString = `${csvString.substring(0, csvString.length - 1)}`;
     }
