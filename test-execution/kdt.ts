@@ -89,9 +89,7 @@ const getCommand = async (
     );
     const dependenciesAbsolutePath = path.resolve('dependencies');
 
-    return `java -cp "${runnerJarPath};${dependenciesAbsolutePath}${path.sep}*"
-     ${getJavaLibraryPath()} com.microfocus.adm.almoctane.migration.plugin_silk_central.kdt.EngineWrapper 
-     ${absoluteRootWorkingFolder} ${octaneTestName}`;
+    return `java -cp "${runnerJarPath};${dependenciesAbsolutePath}${path.sep}*" ${getJavaLibraryPath()} com.microfocus.adm.almoctane.migration.plugin_silk_central.kdt.EngineWrapper ${absoluteRootWorkingFolder} ${octaneTestName}`;
 };
 
 const generateExecutableFile = async (
