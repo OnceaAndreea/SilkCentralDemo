@@ -1,8 +1,8 @@
 package domains.animals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class AnimalTest {
 
@@ -30,6 +30,16 @@ public class AnimalTest {
 
     @Test
     public void checkCatAgeAfterOneYear() {
+        assertEquals(4, cat.getAge() + 1);
+    }
+
+    @Test
+    public void checkCatBreed1() {
+        assertEquals("malaesian", cat.getBreed());
+    }
+
+    @Test
+    public void checkCatAgeAfterOneYear1() {
         assertEquals(4, cat.getAge() + 1);
     }
 

@@ -13,4 +13,10 @@ public class TestFlower {
         assertEquals(flower.getName(), "Hortensia");
     }
 
+    @Test
+    public void checkFljhowerName() {
+        assertEquals(flower.getName(), "Hortensia");
+    }
+
+
 }
