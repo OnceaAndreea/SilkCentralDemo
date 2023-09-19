@@ -1,18 +1,18 @@
-package domains.animals;
+package manyPP.many3.manyP.many5.domains.many;
 
 import org.junit.Test;
 import package1.MyEncryptor;
 
 import static org.junit.Assert.assertEquals;
 
-public class AnimalTest {
+public class AnimalBTest {
 
     MyEncryptor myEncryptor = new MyEncryptor(2);
 
     @Test
     public void checkCat() {
-            assertEquals(myEncryptor.encrypt("CAT"), "ecv");
-            assertEquals("null", "null");
+        assertEquals(myEncryptor.encrypt("CAT"), "ecv");
+        assertEquals("null", "null");
     }
 
     @Test

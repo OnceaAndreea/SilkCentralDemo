@@ -1,4 +1,4 @@
-package domains.animals;
+package manyPP.many2.manyP.many3.domains.many;
 
 import org.junit.Test;
 import package1.MyEncryptor;
