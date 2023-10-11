@@ -26,18 +26,20 @@ export default class VFSProfile extends SourceControlProfile {
     private readonly _url: string;
 
     constructor(
+        id: string,
         name: string,
-        pluginClass: string,
+        type: string,
         rootNode: string,
         projectPath: string,
-        url: string
+        url: string,
+        workingFolder: string
     ) {
-        super(name, pluginClass, rootNode);
+        super(id, name, type, rootNode, workingFolder);
         this._projectPath = projectPath;
         this._url = url;
     }
 
-    async createClasspathFolder(
+    async fetchResources(
         rootWorkingFolder: string,
         credentials?: Credentials
     ): Promise<void> {

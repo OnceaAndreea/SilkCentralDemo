@@ -17,7 +17,8 @@ import path from 'node:path';
 
 const getAbsoluteClasspath = (
     testWorkingFolder: string,
-    classpath: string
+    classpath: string,
+    sourceControlWorkingFolder: string | undefined
 ): string => {
     const parseSeparator = getSeparator(classpath);
     const jarPaths = classpath.split(parseSeparator);
@@ -27,10 +28,14 @@ const getAbsoluteClasspath = (
         value = value.trim();
         if (
             path.isAbsolute(value) &&
-            path.resolve(value) === path.normalize(value)
+            path.resolve(value) === path.normalize(value) &&
+            (sourceControlWorkingFolder === undefined || sourceControlWorkingFolder === '' || !path.resolve(value.toLowerCase()).startsWith(sourceControlWorkingFolder.toLowerCase()))
         ) {
             testsClasspath += value;
         } else {
+            if (sourceControlWorkingFolder !== undefined && sourceControlWorkingFolder !== '' && path.resolve(value.toLowerCase()).startsWith(sourceControlWorkingFolder.toLowerCase())) {
+                value = path.resolve(value).substring(sourceControlWorkingFolder.length, value.length)
+            }
             if (
                 value.startsWith('./') ||
                 value.startsWith('.\\') ||
